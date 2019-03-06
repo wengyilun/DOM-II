@@ -239,7 +239,7 @@ img {
   padding: 20px;
 }
 .home .intro {
-  padding: 90px 0 10px;
+  padding: 96px 0 10px;
   border-bottom: 2px dashed #C0C0C0;
 }
 .home .intro img {
@@ -248,12 +248,6 @@ img {
 }
 .home .intro h2 {
   margin-top: 20px;
-}
-.home #message {
-  background-color: aliceblue;
-  border: 1px solid blue;
-  padding: 10px;
-  color: darkgray;
 }
 .home .content-section {
   margin: 30px 0;
@@ -367,4 +361,33 @@ img {
 .home .content-pick .destination .btn:hover {
   background: #FFFFFF;
   color: #17A2B8;
+}
+#message {
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgba(255, 255, 0, 0.3);
+  border: 1px solid skyblue;
+  border-radius: 6px;
+  width: 100%;
+}
+#message #inputmessage {
+  width: 96%;
+  padding: 10px;
+  margin: 0 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #444;
+  outline: none !important;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+#message p {
+  padding: 10px;
+  color: #888;
+  font-size: 14px;
+}
+::placeholder {
+  color: #ccc;
+  opacity: 1;
 }
